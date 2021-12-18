@@ -22,7 +22,13 @@
     padding: 90px;
 }
 h3{
-    text-align: center;
+   text-align: center;
+}
+.col-md-4{
+    padding: 20px;
+}
+#showing, #dev-showing{
+    display: none;
 }
 #Contact{
     background-image: url("images/ip3\ img1.jpg");
