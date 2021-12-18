@@ -7,4 +7,8 @@ $(document).ready(function () {
         $("#dev-showing").toggle();
         $("#dev-hidden").toggle();   
     })
+    $(".Click").click(function () {
+        $("#prod-showing").toggle();
+        $("#prod-hidden").toggle();
+    })
 })
