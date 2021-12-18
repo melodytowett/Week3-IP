@@ -27,7 +27,7 @@ h3{
 .col-md-4{
     padding: 20px;
 }
-#showing, #dev-showing{
+#showing, #dev-showing, #prod-showing{
     display: none;
 }
 #Contact{
