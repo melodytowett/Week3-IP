@@ -19,7 +19,9 @@ $(document).ready(function () {
         $("#Email").text(emailInput);
         $("#message").text(messageInput);
         event.preventDefault();
-        
+        alert(nameInput +"we have recieved your message.Thankyou for reaching out to us")
     })
-    alert(nameInput +"we have recieved your message.Thankyou for reaching out to us")
+    $(".col-md-3").hover(function () {
+        $(".name").toggle();
+    })
 })
