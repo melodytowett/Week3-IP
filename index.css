@@ -30,6 +30,18 @@ h3{
 #showing, #dev-showing, #prod-showing{
     display: none;
 }
+.name{
+    display: none;
+    border: 1px solid grey;
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    font-weight: bold;
+    width: 150px;
+    background: white;
+    /* margin-left: 50px; */
+   
+}
 #Contact{
     background-image: url("images/ip3\ img1.jpg");
     background-size: contain;
@@ -50,6 +62,7 @@ form{
 }
 .col-md-3{
     padding: 10px;
+    position: relative;
   
 }
 .form-control{
