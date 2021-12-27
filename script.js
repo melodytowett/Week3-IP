@@ -25,3 +25,18 @@ $(document).ready(function () {
         $(".name").toggle();
     })
 })
+// form validation
+function validateForm() {
+    var myName = document.getElementById("Name").value;
+    var myMail = document.getElementById("Email").value; 
+    if (myName == " ") {
+        alert("enter name")
+        return false;
+    }
+    else if (myMail == "") {
+        alert("Email must be filled")
+    }
+    else{
+        alert( myName +" " +"We have received your message.Thankyou for reaching out to us")
+    }
+}
