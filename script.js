@@ -39,4 +39,10 @@ function validateForm() {
     else{
         alert( myName +" " +"We have received your message.Thankyou for reaching out to us")
     }
+    input.addEventListener("keyup", function (event) {
+       if (event.keyCode === 13) {
+           event.preventDefault();
+           
+       } 
+    })
 }
